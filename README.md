@@ -1,6 +1,4 @@
-**# Influencer-Campaign-ROI-Dashboard**
-
-
+**Influencer Campaign ROI Dashboard**
 Analyse and visualise the effectiveness of influencer marketing campaigns for multiple HealthKart brands, with granular insights, flexible filters, and one-click reporting.
 
 Features
@@ -12,7 +10,7 @@ Granular Analysis: Examine performance at influencer, campaign, brand, and produ
 
 ROI & Incrementality: Calculate both ROAS and incremental ROAS (lift over baseline) with user-set baselines.
 
-Engagement Tracking: Visualise post reach, likes, and comments.
+Engagement Tracking: Visualize post reach, likes, and comments.
 
 Automated Insights: Instantly see top performers, best personas, and poor ROIs.
 
@@ -21,22 +19,21 @@ Charts & Exports: Download filtered results as both CSV and PDF; view colorful i
 User-friendly UI: Intuitive Streamlit layout with sidebar controls and responsive design.
 
 Setup
-1. Clone the Repo or Download Files
+1. **Clone the Repo or Download Files**
 text
-
 
 (or upload all files to your own GitHub repo and then download)
 
-2. Install Dependencies
+2. **Install Dependencies**
 Recommended: Use the included requirements.txt file for easy setup.
 
 
-pip install streamlit pandas plotly matplotlib
+**pip install streamlit pandas plotly matplotlib**
 
 
 text
 
-pip install -r requirements.txt
+**pip install -r requirements.txt**
 
 
 Dependencies:
@@ -55,13 +52,13 @@ plotly
 text
 
 
-streamlit run influencer_dashboard.py
+**streamlit run influencer_dashboard.py**
 
 
 4. Upload Data
 On the sidebar:
 
-Upload all four CSV files:
+**Upload all four CSV files:**
 
 influencers.csv
 
@@ -97,12 +94,12 @@ Incremental ROAS: True ROI after subtracting a business-defined revenue baseline
 
 Top Influencers/Personas: Instantly see who’s best (or worst) for your KPIs.
 
-Post Engagement: Compare reach, likes, comments across campaigns and platforms.
+Post Engagement: Compare reach, likes, and comments across campaigns and platforms.
 
 Downloadable Reports: Export detailed dashboards as CSV or PDF.
 
 Documentation & Storytelling
-Each section explains and visualizes results for easy business interpretation.
+Each section explains and visualises results for easy business interpretation.
 
 Exports and visual leaderboards enable clear communication with stakeholders.
 
@@ -112,10 +109,10 @@ Add more brands, platforms, or influencer types as you grow.
 Built for adaptation—swap in your own data, tweak filters, or add new fields as needed.
 
 
-Author
+**Author
 Shreyash Raj
 https://www.linkedin.com/in/shreyashraj130596
-https://github.com/shreyash130
+https://github.com/shreyash130**
 
 Feedback & Collaboration
 Questions, bugs, or ideas? Open an issue or pull request!
