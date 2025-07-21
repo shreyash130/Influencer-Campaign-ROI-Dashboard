@@ -1,4 +1,4 @@
-# Influencer-Campaign-ROI-Dashboard
+**# Influencer-Campaign-ROI-Dashboard**
 
 
 Analyse and visualise the effectiveness of influencer marketing campaigns for multiple HealthKart brands, with granular insights, flexible filters, and one-click reporting.
@@ -12,7 +12,7 @@ Granular Analysis: Examine performance at influencer, campaign, brand, and produ
 
 ROI & Incrementality: Calculate both ROAS and incremental ROAS (lift over baseline) with user-set baselines.
 
-Engagement Tracking: Visualize post reach, likes, and comments.
+Engagement Tracking: Visualise post reach, likes, and comments.
 
 Automated Insights: Instantly see top performers, best personas, and poor ROIs.
 
