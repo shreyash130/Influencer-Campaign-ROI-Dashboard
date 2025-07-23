@@ -1,7 +1,7 @@
 
 # Influencer Campaign ROI Dashboard
 
-![Dashboard Preview] (streamlit-influencer_dashboard-2025-07-21-12-07-28-ezgif.com-video-to-gif-converter.gif)
+![Dashboard Preview] (main/streamlit-influencer_dashboard-2025-07-21-12-07-28-ezgif.com-video-to-gif-converter.gif)
 
 Optimise influencer marketing ROI across HealthKart brands with granular insights & dynamic reports.*
 
