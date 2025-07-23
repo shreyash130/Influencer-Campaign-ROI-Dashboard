@@ -44,6 +44,12 @@ Use the provided requirements file for quick setup:
 pip install -r requirements.txt
 ```
 
+### 2.2 Also compatible with:
+
+```bash
+pip install streamlit pandas plotly matplotlib numpy
+```
+
 ### 3. Launch the Dashboard  
 ```bash
 streamlit run influencer_dashboard.py
