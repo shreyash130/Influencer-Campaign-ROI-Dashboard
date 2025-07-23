@@ -1,120 +1,100 @@
-**Influencer Campaign ROI Dashboard**
-Analyse and visualise the effectiveness of influencer marketing campaigns for multiple HealthKart brands, with granular insights, flexible filters, and one-click reporting.
 
-Features
-Data Upload: Import campaign data from influencers.csv, posts.csv, tracking_data.csv, payouts.csv.
+# Influencer Campaign ROI Dashboard
 
-Dynamic Filtering: Slice analytics by brand, product, persona type (category, gender, follower range), and platform.
+![Dashboard Preview] optimize influencer marketing ROI across HealthKart brands with granular insights & dynamic reports.*
 
-Granular Analysis: Examine performance at influencer, campaign, brand, and product level.
+## 🚀 Overview
 
-ROI & Incrementality: Calculate both ROAS and incremental ROAS (lift over baseline) with user-set baselines.
+The **Influencer Campaign ROI Dashboard** is a powerful tool to analyse, measure, and visualise the performance of influencer marketing campaigns. Designed for HealthKart’s multi-brand setup, it provides:
 
-Engagement Tracking: Visualize post reach, likes, and comments.
+- Deep-dive, granular insights at the influencer, campaign, brand, and product levels  
+- Dynamic filtering by brand, product, persona, and platform  
+- ROI & incremental ROI calculations with customizable baselines  
+- Engagement tracking (reach, likes, comments) per post  
+- Automated highlights to identify top performers and underperformers  
+- Interactive charts and downloadable reports (CSV & PDF)  
+- Easy-to-use, responsive Streamlit interface
 
-Automated Insights: Instantly see top performers, best personas, and poor ROIs.
+## ⚡ Features
 
-Charts & Exports: Download filtered results as both CSV and PDF; view colorful interactive graphs with Plotly.
+| Feature                 | Description                                                                                     |
+|-------------------------|-------------------------------------------------------------------------------------------------|
+| **Data Upload**         | Upload multiple CSV files: `influencers.csv`, `posts.csv`, `tracking_data.csv`, `payouts.csv`.  |
+| **Dynamic Filters**     | Filter data by brand, product, persona type, gender, follower count, and platform.               |
+| **Granular Analytics**  | Analyse metrics at every level: influencer, campaign, brand, and product.                        |
+| **ROI & Incrementality**| Calculate ROAS & incremental ROAS (true lift over baseline).                                   |
+| **Engagement Tracking** | Visualise post reach, likes, and comments.                                                     |
+| **Automated Insights**  | Instantly find top influencers, best personas, and campaigns with poor ROI.                     |
+| **Charts & Exports**    | Interactive Plotly graphs with export options in CSV and PDF formats.                           |
+| **User-friendly UI**    | Intuitive sidebar controls and responsive Streamlit layout for seamless usage.                 |
 
-User-friendly UI: Intuitive Streamlit layout with sidebar controls and responsive design.
+## 📦 Getting Started
 
-Setup
-1. **Clone the Repo or Download Files**
-text
+### 1. Clone or Download  
+```bash
+git clone https://github.com/shreyash130/influencer-campaign-roi-dashboard.git
+cd influencer-campaign-roi-dashboard
+```
 
-(or upload all files to your own GitHub repo and then download)
+### 2. Install Dependencies  
+Use the provided requirements file for quick setup:
+```bash
+pip install -r requirements.txt
+```
 
-2. **Install Dependencies**
-Recommended: Use the included requirements.txt file for easy setup.
+### 3. Launch the Dashboard  
+```bash
+streamlit run influencer_dashboard.py
+```
 
+### 4. Upload Your Data  
+On the sidebar, upload the required CSV files:  
+- `influencers.csv`  
+- `posts.csv`  
+- `tracking_data.csv`  
+- `payouts.csv`
 
-**pip install streamlit pandas plotly matplotlib**
+Use sidebar filters to explore your data across brands, products, personas, and platforms.
 
+## 📂 CSV Data Format
 
-text
+| CSV File          | Key Columns                                                                                     |
+|-------------------|-------------------------------------------------------------------------------------------------|
+| `influencers.csv` | `id, name, category, gender, followers, platform`                                               |
+| `posts.csv`       | `influencer_id, platform, date, url, caption, reach, likes, comments`                            |
+| `tracking_data.csv` | `source, campaign, influencer_id, user_id, brand, product, date, orders, revenue`               |
+| `payouts.csv`     | `influencer_id, basis, rate, orders, total_payout`                                              |
 
-**pip install -r requirements.txt**
+*Sample CSV files are included for quick testing.*
 
+## 🔍 Insights & What You Get
 
-Dependencies:
+- **ROI Metrics:** Revenue generated per ₹ spent on influencer campaigns  
+- **Incremental ROAS:** True ROI considering user-defined revenue baselines  
+- **Top & Poor Performers:** Identify winning influencers and campaigns fast  
+- **Engagement Breakdown:** Compare reach, likes & comments across platforms  
+- **Exportable Reports:** Download ready-to-share CSV and PDF reports  
 
-streamlit
+## 💡 Why Use This Dashboard?
 
-pandas
+- Make influencer marketing ROI **actionable and transparent**  
+- Save hours with **automated reporting and insights**  
+- Easily **customise data inputs and filters** as your marketing programs evolve  
+- Communicate results clearly with **interactive visuals and exports**
 
-numpy
+## 🙌 Contributions & Feedback
 
-matplotlib
+I welcome your issues, bug reports, and pull requests! Feel free to contribute or suggest new features by opening an issue.
 
-plotly
+## 👤 Author
 
-3. Launch the Dashboard
-text
+**Shreyash Raj**  
+[LinkedIn](https://www.linkedin.com/in/shreyashraj130596) | [GitHub](https://github.com/shreyash130)
 
+## 🚀 Get Started Now!
 
-**streamlit run influencer_dashboard.py**
+Upload your campaign data and turn your influencer marketing into measurable, optimised ROI in seconds!
 
+*Built with ❤️ using Streamlit, Pandas, and Plotly.*
 
-4. Upload Data
-On the sidebar:
-
-**Upload all four CSV files:**
-
-influencers.csv
-
-posts.csv
-
-tracking_data.csv
-
-payouts.csv
-
-Use the sidebar filters to select brands, products, persona types, and platforms for analysis.
-
-Data Model
-Example CSV Schemas:
-
-influencers.csv:
-id, name, category, gender, followers, platform
-
-posts.csv:
-influencer_id, platform, date, url, caption, reach, likes, comments
-
-tracking_data.csv:
-source, campaign, influencer_id, user_id, brand, product, date, orders, revenue
-
-payouts.csv:
-influencer_id, basis, rate, orders, total_payout
-
-Note: Sample CSVs included for quick testing.
-
-Insights & Outputs
-ROI: Revenue generated per ₹ spent on each influencer/campaign.
-
-Incremental ROAS: True ROI after subtracting a business-defined revenue baseline.
-
-Top Influencers/Personas: Instantly see who’s best (or worst) for your KPIs.
-
-Post Engagement: Compare reach, likes, and comments across campaigns and platforms.
-
-Downloadable Reports: Export detailed dashboards as CSV or PDF.
-
-Documentation & Storytelling
-Each section explains and visualises results for easy business interpretation.
-
-Exports and visual leaderboards enable clear communication with stakeholders.
-
-Extensibility
-Add more brands, platforms, or influencer types as you grow.
-
-Built for adaptation—swap in your own data, tweak filters, or add new fields as needed.
-
-
-**Author
-Shreyash Raj
-https://www.linkedin.com/in/shreyashraj130596
-https://github.com/shreyash130**
-
-Feedback & Collaboration
-Questions, bugs, or ideas? Open an issue or pull request!
-
-Ready to turn influencer marketing into measurable ROI? Upload your data and get actionable insights in seconds!
+*If you want me to add badges (build status, license, etc.) or a GIF screenshot, just let me know!*
